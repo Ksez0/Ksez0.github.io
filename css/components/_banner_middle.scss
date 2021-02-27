@@ -1,0 +1,133 @@
+
+.banner__middle {
+  background-color: black;
+  color: $white_hpz;
+  font-size: 60px;
+  font-family: "FuturaPT-Book";
+}
+
+
+.banner_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 600px;
+}
+
+  .banner__content_left, .banner__content_right {
+    padding: 0 70px;
+  }
+
+  .banner__middle img {
+    width: 318px;
+  }
+
+  .banner__middle h5 {
+    font-size: 100px;
+    font-family: "Futura PT Heavy";
+  }
+
+
+@media (max-width: 1100px ) {
+  .banner_wrap {
+    height: 400px;
+  }
+
+  .banner__middle h5 {
+    font-size: 56px;
+  }
+
+  .banner__middle {
+    font-size: 30px;
+  }
+
+  .banner__middle img {
+    width: 216px;
+  }
+
+  .banner__content_left, .banner__content_right {
+    padding: 0 20px;
+  }
+
+}
+
+@media (max-width: 600px ) {
+  .banner_wrap {
+    height: 300px;
+  }
+
+  .banner__middle h5 {
+    font-size: 40px;
+  }
+
+  .banner__middle {
+    font-size: 20px;
+  }
+
+  .banner__middle img {
+    width: 180px;
+  }
+
+  .banner__content_left, .banner__content_right {
+    padding: 0 17px;
+  }
+
+}
+
+@media (max-width: 540px ) {
+  #banner_middle {
+    margin-bottom: 100px;
+  }
+
+}
+
+
+@media (max-width: 500px ) {
+  .banner_wrap {
+    height: 200px;
+  }
+
+  .banner__middle h5 {
+    font-size: 35px;
+  }
+
+  .banner__middle {
+    font-size: 17px;
+  }
+
+  .banner__middle img {
+    width: 130px;
+  }
+
+  .banner__content_left, .banner__content_right {
+    padding: 0 10px;
+  }
+
+}
+
+
+@media (max-width: 360px ) {
+  .banner_wrap {
+    height: 200px;
+  }
+
+  .banner__middle h5 {
+    font-size: 30px;
+  }
+
+  .banner__middle {
+    font-size: 17px;
+  }
+
+  .banner__middle img {
+    width: 116px;
+  }
+
+  .banner__content_left, .banner__content_right {
+    padding: 0 10px;
+  }
+
+}
+
+

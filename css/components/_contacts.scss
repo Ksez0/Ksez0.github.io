@@ -1,0 +1,142 @@
+#contacts {
+  position: relative;
+  padding-top: 90px;
+}
+
+.contacts__block {
+  position: absolute;
+  top: -100px;
+  height: 530px;
+  width: 500px;
+  background-color: #1e1e1e;
+  border: 2px solid $red_hpz;
+  border-radius: 30px;
+  z-index: 99;
+}
+
+ul.contacts__block_list {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+ul.contacts__block_list li.title_item {
+  padding-top: 40px;
+  font-family: Futura PT Heavy;
+  font-size: 30px;
+  color: $red_hpz;
+}
+
+ul.contacts__block_list li.text_item {
+  padding-top: 12px;
+  font-family: FuturaPT-Book;
+  font-size: 24px;
+  color: $white_hpz;
+}
+
+li.first_item {
+  margin-top: 14px;
+}
+
+address {
+  margin: 0;
+}
+
+a.active_link {
+  text-decoration: underline;
+}
+
+.yandex__map {
+  height: 535px;
+}
+
+#map {
+  position:relative;
+  top:0;
+  bottom:0;
+  width:100%;
+  height: 535px;
+}
+
+#map.contacts_map {
+  height: 590px;
+}
+
+.img__contacts_header {
+    background: url('../img/img_map.jpg') center center;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+
+}
+
+@media (max-width: 1199px) {
+  .contacts__block {
+    top: -100px;
+    height: 380px;
+    width: 350px;
+  }
+
+  ul.contacts__block_list li.title_item {
+    padding-top: 28px;
+    font-family: Futura PT Heavy;
+    font-size: 25px;
+    color: $red_hpz;
+  }
+
+  ul.contacts__block_list li.text_item {
+    padding-top: 5px;
+    font-family: FuturaPT-Book;
+    font-size: 19px;
+    color: $white_hpz;
+  }
+}
+
+@media (max-width: 992px) {
+  .cd-slider.msk {
+    height: 750px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .contacts__block {
+    top: -100px;
+    height: 300px;
+    width: 270px;
+  }
+
+  ul.contacts__block_list li.title_item {
+    padding-top: 20px;
+    font-family: Futura PT Heavy;
+    font-size: 20px;
+    color: $red_hpz;
+  }
+
+  ul.contacts__block_list li.text_item {
+    padding-top: 5px;
+    font-family: FuturaPT-Book;
+    font-size: 14px;
+    color: $white_hpz;
+  }
+}
+
+@media (max-width: 600px) {
+  #map.index__map {
+    height: 420px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .cd-slider.msk {
+    height: 650px;
+  }
+}
+
+@media (max-width: 430px) {
+  .cd-slider.msk {
+    height: 700px;
+  }
+}

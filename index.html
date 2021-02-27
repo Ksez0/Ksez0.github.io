@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    
+    <link rel="icon" href="img/log.png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/hover-min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+    </script>
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js"></script>
+    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css" rel="stylesheet" />
+    <title>Белый клуб</title>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-xs navbar-dark navbar-2 fixed-top" style="background-color: rgba(0, 0, 0, 0.9);">
+        <a class="navbar-brand" href="index.html"><img class="nav__logo" src="img/logo.png" alt="HARDPLAYZONA"></a>
+        
+        <a href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="55" onclick="this.classList.toggle('active')">
+                    <path
+                            class="line top"
+                            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                            class="line middle"
+                            d="m 30,50 h 40" />
+                    <path
+                            class="line bottom"
+                            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+
+            <ul class="navbar-navv second_ul">
+                <li class="nav-item">
+                    <a class="nav-link" >Зал PC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" >Зал VIP PC</a>
+                </li>
+               
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="social__button" style="display: none">
+    <a href="#" class="social__button_link"> <img src="img/button_up.png" class="button_up" alt="button_up"> <span class="button_up_text">НАВЕРХ</span></a>
+</div>
+
+<div class="jumbotron jumbotron-fluid">
+    <video autoplay muted loop playsinline class="video-background" poster="img/bg_price.png" >
+        <source src="video/banner.webm" type="video/webm">
+        <source src="video/banner.mp4" data-src="video/banner.mp4" type="video/mp4">
+        <source src="video/banner.ogv" type="video/ogg">
+    </video>
+    <div class="container-fluid">
+        <div class="row pt-120 align-items-center">
+            <div class="col-xl-12 col-md-12 col-sm-12 banner__block text-center">
+                <div class="banner__text">
+                    <div class="text1">
+                        <div class="slogan">ПРОВЕДИ ВРЕМЯ</div>
+                    </div>
+                </div>
+                <div class="banner__text">
+                    <div class="text2">
+                        <div class="slogan">В КРУГУ ДРУЗЕЙ</div>
+                    </div>
+                </div>
+                <h1 class="banner__hidden">Проведи время в кругу друзей</h1>
+            </div>
+            <div class="col-xl-12 col-md-12 col-sm-12 text-center">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-4 col-md-6">
+                <div class="services__container">
+                    <div class="box pcc mx-auto">
+                        <div class="hover-effect">
+                            <a class="hover-text">
+                                 &rarr;
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Зал PC</h3>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-md-6">
+                <div class="services__container">
+                    <div class="box vippc mx-auto">
+                        <div class="hover-effect">
+                            <a  class="hover-text">
+                                 &rarr;
+                            </a>
+                        </div>
+                    </div>
+                    <h3>Зал VIP PC</h3>
+                </div>
+            
+            <div class="col-xxl-4 col-md-6">
+               
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="stock">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12 full_hd">
+                <div class="cd-slider">
+                    <ul>
+                        <li>
+                            <div class="image position_right stock1"></div>
+                            <div class="content">
+                                <h4>Лучшие ПК</h4>
+                                <p class="slider_text">Все самое современное и&nbsp;лучшее для&nbsp;наших гостей.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image position_right stock2"></div>
+                            <div class="content">
+                                <h4>Лучшие ПК</h4>
+                                <p class="slider_text">Все самое современное и&nbsp;лучшее для&nbsp;наших гостей.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="banner_middle">
+    <div class="container-fluid banner__middle">
+        <div class="banner_wrap">
+            <div class="banner__content_left">
+                <h5>Киберспорт</h5>
+                Ближе, чем ты думаешь
+            </div>
+            <div class="banner__content_right">
+                <img src="img/trademark_white.png" alt="Hardplayzona">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="price">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-xxl-12">
+                <h3 class="none">Прайс</h3>
+                <p class="price__link text-center">
+                    <a href="#" class="change__price_pc active">PC</a>                  
+                </p>
+                <div class="table_box pc animated fadeInLeft">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>PC</th>
+                        <th class="table__red">8:00-12:00</th>
+                        <th class="table__red">12:00-18:00</th>
+                        <th class="table__red">18:00-07:00</th>
+                        <th class="table__red">Пакет 4 часа 8:00-12:00</th>
+                        <th class="table__red">Пакет 6 часов 12:00-18:00</th>
+                        <th class="table__red">Пакет вечер 18:00-01:00</th>
+                        <th class="table__red">Пакет ночь 22:00-07:00</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class="table__redhr">Будни <span class="table__title">PC</span></th>
+                        <td aria-label="8:00-12:00">90 руб/ч</td>
+                        <td aria-label="12:00-18:00">100 руб/ч</td>
+                        <td aria-label="18:00-07:00">115 руб/ч</td>
+                        <td aria-label="Пакет 4 часа 8:00-12:00">260 руб.</td>
+                        <td aria-label="Пакет 6 часов 12:00-18:00">450 руб.</td>
+                        <td aria-label="Пакет вечер 18:00-01:00">680 руб.</td>
+                        <td aria-label="Пакет ночь 22:00-07:00">480 руб.</td>
+                    </tr>
+                    <tr>
+                        <th class="table__redhr">Выходные <span class="table__title">PC</span></th>
+                        <td aria-label="8:00-12:00">100 руб/ч</td>
+                        <td aria-label="12:00-18:00">110 руб/ч</td>
+                        <td aria-label="18:00-07:00">120 руб/ч</td>
+                        <td aria-label="Пакет 4 часа 8:00-12:0">320 руб.</td>
+                        <td aria-label="Пакет 6 часов 12:00-18:00">510 руб.</td>
+                        <td aria-label="Пакет вечер 18:00-01:00">680 руб.</td>
+                        <td aria-label="Пакет ночь 22:00-07:00">480 руб.</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <hr class="table__line">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>VIP PC</th>
+                        <th class="table__red">8:00-12:00</th>
+                        <th class="table__red">12:00-18:00</th>
+                        <th class="table__red">18:00-07:00</th>
+                        <th class="table__red">Пакет 4 часа 8:00-12:00</th>
+                        <th class="table__red">Пакет 6 часов 12:00-18:00</th>
+                        <th class="table__red">Пакет вечер 18:00-01:00</th>
+                        <th class="table__red">Пакет ночь 22:00-07:00</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th class="table__redhr">Будни <span class="table__title">VIP PC</span></th>
+                        <td aria-label="8:00-12:00">150 руб/ч</td>
+                        <td aria-label="12:00-18:00">170 руб/ч</td>
+                        <td aria-label="18:00-07:00">190 руб/ч</td>
+                        <td aria-label="Пакет 4 часа 8:00-12:00">470 руб.</td>
+                        <td aria-label="Пакет 6 часов 12:00-18:00">690 руб.</td>
+                        <td aria-label="Пакет вечер 18:00-01:00">800 руб.</td>
+                        <td aria-label="Пакет ночь 22:00-07:00">790 руб.</td>
+                    </tr>
+                    <tr>
+                        <th class="table__redhr">Выходные <span class="table__title">VIP PC</span></th>
+                        <td aria-label="8:00-12:00">150 руб/ч</td>
+                        <td aria-label="12:00-18:00">170 руб/ч</td>
+                        <td aria-label="18:00-07:00">190 руб/ч</td>
+                        <td aria-label="Пакет 4 часа 8:00-12:00">470 руб.</td>
+                        <td aria-label="Пакет 6 часов 12:00-18:00">690 руб.</td>
+                        <td aria-label="Пакет вечер 18:00-01:00">800 руб.</td>
+                        <td aria-label="Пакет ночь 22:00-07:00">790 руб.</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xxl-12 price__comment text-center">
+                *При бронировании пакетов онлайн, обязательно указывайте <br> это в комментарии к заказу, например “Пакет 4 часа”
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</main>
+<section id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-12">
+                <h2 class="none">Контакты</h2>
+                <div class="contacts__block">
+                    <ul class="contacts__block_list">
+                        <li class="title_item first_item">Адрес</li>
+                        <li class="text_item">
+                            <address> ул. Бакунинская, 69с1 <br> </address>
+                        </li>
+                        <li class="title_item">Режим работы</li>
+                        <li class="text_item">Круглосуточно</li>
+                        <li class="title_item">Телефон</li>
+                        <li class="text_item">+7 (800) 555-35-35</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+</body>
+</html>

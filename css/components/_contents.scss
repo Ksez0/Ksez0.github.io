@@ -1,0 +1,521 @@
+.content_page {
+  padding: 30px 0 40px 88px;
+}
+
+#price.bg_price {
+  margin: 0;
+  background-color: $bgcolor;
+  padding: 80px 0;
+}
+
+  h2.title {
+    font-family: Futura PT Heavy;
+    font-size: 80px;
+  }
+
+  .content_page p {
+    font-size: 32px;
+  }
+
+  .line {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: $black;
+  }
+
+  .line_fr {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: $black;
+  }
+
+  h5.title {
+    text-align: center;
+    font-family: Futura PT Heavy;
+    font-size: 60px;
+    padding-bottom: 50px;
+  }
+
+  #stock .slider_pc h4, #stock2 .slider_pc h4 {
+    font-size: 50px;
+    padding-bottom: 45px;
+  }
+
+  .table_smoke {
+    font-size: 26px;
+  }
+
+  span.type_smoke {
+    font-family: FuturaPT-Book;
+    font-size: 18px;
+  }
+
+.cd-slider.photo{
+  position: relative;
+  display: block;
+  width: 860px;
+  height: 630px;
+  margin: 0 auto;
+}
+
+.down_slider {
+  margin-bottom: 40px;
+}
+
+  #stock .down_slider nav, #stock2 .down_slider nav {
+    position: absolute;
+    right: 0;
+    top: 550px;
+    left: auto;
+
+  }
+
+  #stock .image.position_right.img_full, #stock2 .image.position_right.img_full {
+    width: 860px;
+    height: 550px;
+  }
+
+.table2 {
+  color: $text_main;
+  font-size: 24px;
+  font-family: "Futura PT Medium";
+  margin: 25px auto;
+  width: 700px;
+
+}
+
+.table2 td {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.table2 th {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.table__lounge th {
+  text-align: left;
+  width: 80%;
+}
+
+.table__lounge td {
+  text-align: right;
+  width: 20%;
+}
+
+.map {
+  background-image: url('../img/map.png');
+  width: 100%;
+}
+
+span.address {
+  display: inline-block;
+  font-size: 36px;
+  padding-right: 115px;
+}
+
+#contacts__page {
+  margin: 60px 0 80px 0;
+}
+
+.city {
+  display: inline-block;
+  padding-right: 30px;
+  color: $black;
+  font-size: 24px;
+}
+
+a.city:hover {
+  color: $black;
+}
+
+#contacts__page h2.title {
+  margin-bottom: 4px;
+}
+
+.video {
+  width: 400px;
+  border: 1px solid black;
+}
+
+.wrapper{
+  display:table;
+  width:auto;
+  position:relative;
+  width: 400px;
+}
+.playpause {
+  background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
+  background-repeat:no-repeat;
+  width:50%;
+  height:50%;
+  position:absolute;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  margin:auto;
+  background-size:contain;
+  background-position: center;
+}
+
+.video_box {
+  text-align: right;
+}
+
+.wrapper {
+  display: inline-block;
+}
+
+.video_text {
+  position: relative;
+  top: calc(50% - 80px);
+  font-size: 24px;
+  padding-left: 100px;
+}
+
+
+
+.rail-select {
+  position: relative;
+  width: 250px;
+
+  select {
+    border: solid 1px black;
+    border-radius: 3px;
+    font-size: 16px;
+    color: gray;
+    height: 42px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-left: 30px;
+    color: black;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border: solid 1px black;
+      color: black;
+    }
+
+  }
+
+  .select-side {
+    pointer-events: none;
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left: 210px;
+
+    i {
+      position: relative;
+      left: 30%;
+      top: 10px;
+    }
+  }
+}
+
+.club__address {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.club__phone {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+
+.select_box {
+  margin-top: 30px;
+}
+
+.field1 {
+  padding-bottom: 44px;
+}
+
+#our_clubs {
+  margin-bottom: 160px;
+}
+
+#map.map_contacts {
+  width: 100%;
+  height: 496px;
+}
+
+p.sub_text_up {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+p.sub_text_down {
+  padding-top: 18px;
+  padding-bottom: 0;
+}
+
+
+@media (max-width: 1366px) {
+
+  span.address {
+    font-size: 28px;
+    padding-right: 80px;
+  }
+
+
+}
+
+@media (max-width: 1200px) {
+  h2.title {
+    font-size: 58px;
+  }
+
+  span.address {
+    font-size: 26px;
+    padding-right: 50px;
+  }
+
+
+}
+
+@media (max-width: 990px) {
+
+  span.address {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .wrapper, .video {
+    width: 300px;
+  }
+
+  .video_text {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .video_box {
+    text-align: center;
+  }
+
+  .cd-slider.photo{
+    width: 700px;
+    height: 630px;
+  }
+
+    #stock .down_slider nav, #stock2 .down_slider nav {
+      top: 545px;
+    }
+
+    #stock .image.position_right.img_full, #stock2 .image.position_right.img_full {
+      width: 700px;
+      height: 560px;
+    }
+
+  .field1 {
+    padding-bottom: 30px;
+  }
+
+  .select_box {
+    margin-top: 70px;
+  }
+
+}
+
+@media (max-width: 900px) {
+  h2.title {
+    font-size: 45px;
+  }
+
+  h5.title {
+    font-size: 50px;
+    padding-bottom: 25px;
+  }
+
+  .content_page {
+    padding: 40px 0 30px 60px;
+  }
+
+  .table2 {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .content_page p {
+    font-size: 25px;
+  }
+
+  #franchise__aim {
+    margin-bottom: 0;
+  }
+
+  span.address {
+    display: block;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .wrapper {
+    margin-bottom: 30px;
+  }
+
+  .video_text {
+    top: 0;
+    padding-left: 0px;
+    margin-bottom: 40px;
+  }
+
+  #contacts__page {
+    margin: 40px 0;
+  }
+
+  .cd-slider.photo{
+    width: 480px;
+    height: 550px;
+  }
+
+  #stock .down_slider nav, #stock2 .down_slider nav  {
+    top: 455px;
+    right: 5px;
+  }
+
+
+  #stock .image.position_right.img_full, #stock2 .image.position_right.img_full {
+    width: 480px;
+    height: 460px;
+  }
+}
+
+@media (max-width: 550px) {
+  h5.title {
+    font-size: 35px;
+    padding-bottom: 25px;
+  }
+
+  h2.title {
+    font-size: 35px;
+  }
+
+  .content_page {
+    padding: 20px 0 20px 20px;
+  }
+
+  .content_page p {
+    font-size: 22px;
+    line-height: 1.0;
+    margin-top: 20px;
+  }
+
+  .table2 {
+    width: 340px;
+    font-size: 18px;
+  }
+
+  span.type_smoke {
+    font-size: 12px;
+  }
+
+  .table_box {
+    margin: 0;
+  }
+
+  .main__franchise div.content_page {
+    padding-top: 30px;
+  }
+
+  a.city {
+    font-size: 20px;
+  }
+
+  .wrapper, .video {
+    width: 250px;
+  }
+
+  .video_text {
+    margin-bottom: 40px;
+  }
+
+  .down_slider {
+    padding: 0;
+  }
+
+  .cd-slider.photo{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+
+  #stock .down_slider nav, #stock2 .down_slider nav {
+    top: 333px;
+  }
+
+  #stock .image.position_right.img_full, #stock2 .image.position_right.img_full {
+    height: 340px;
+    width: 100%;
+  }
+
+  #our_clubs {
+    margin-bottom: 80px;
+  }
+
+  #price.bg_price.tv {
+    padding-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 380px) {
+  h5.title {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+
+  .table2 {
+    width: 300px;
+    font-size: 18px;
+  }
+
+  span.type_smoke {
+    font-size: 10px;
+  }
+
+  h2.title {
+    font-size: 28px;
+  }
+
+  .content_page p {
+    font-size: 21px;
+  }
+
+  .content_page {
+    padding: 10px 0 10px 20px;
+  }
+
+  .main__franchise div.content_page {
+    padding-top: 10px;
+  }
+
+  .main__franchise div.cd-slider.slider_first {
+    height: 600px;
+  }
+
+  .main__franchise div.cd-slider.slider_first.big_text {
+    height: 550px;
+  }
+
+
+  a.city {
+    font-size: 17px;
+  }
+
+}
+
+
+

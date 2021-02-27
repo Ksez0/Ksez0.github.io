@@ -1,0 +1,181 @@
+#services {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 160px;
+  width: 100%;
+}
+
+    #services h3 {
+      font-family: 'Futura PT Medium';
+      color: $text_main;
+      font-size: 25px;
+      padding-top: 20px;
+      text-align: left;
+    }
+
+    .services__container {
+      width: 332px;
+      margin: auto;
+    }
+
+      .services__container h3{
+        margin-bottom: 0;
+      }
+
+    .services__img {
+      margin-top: 90px;
+      width: 332px;
+    }
+
+    .box {
+      position: relative;
+      overflow: hidden;
+      width: 332px;
+      height: 200px;
+      cursor: pointer;
+      margin-top: 90px;
+    }
+
+      .pcc {
+        background: url('../img/img_pc.jpg') center left no-repeat;
+        background-size: cover;
+      }
+
+      .vippc {
+        background: url('../img/img_vippc.jpg') center left no-repeat;
+        background-size: cover;
+      }
+
+      .tvv {
+        background: url('../img/img_tv.jpg') center left no-repeat;
+        background-size: cover;
+      }
+
+      .viptv {
+        background: url('../img/img_viptv.jpg') center left no-repeat;
+        background-size: cover;
+      }
+
+      .lounge {
+        background: url('../img/img_lounge.jpg') center left no-repeat;
+        background-size: cover;
+      }
+
+      .showroom {
+        background: url('../img/img_franchise.jpg') center left no-repeat;
+        background-size: cover;
+      }
+
+
+    .box a {
+      text-decoration: none;
+    }
+
+      .box a:hover {
+        color: $hover_link;
+      }
+
+    .hover-effect {
+      position: absolute;
+      top: 0;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.62);
+      transition: all 0.5s ease-in-out;
+      opacity: 0;
+    }
+
+    .box:hover .hover-effect {
+      opacity: 1;
+    }
+    .box:hover .hover-text {
+      right: 0px;
+    }
+
+    .hover-text {
+      position: absolute;
+      right: -100%;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 85px 75px;
+      color: #e2e2e2;
+      text-decoration: none;
+      text-align: right;
+      line-height: 30px;
+      font-size: 15px;
+      font-family: FuturaPT-Book;
+      font-weight: 300;
+      transition: all 0.3s ease-in-out;
+      text-align: center;
+    }
+
+
+@media (max-width: 1199px) {
+  #services {
+    background-size: cover;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .box {
+    width: 362px;
+    height: 230px;
+  }
+
+  .hover-text {
+    padding: 95px 95px;
+  }
+
+  .box {
+    margin-top: 40px;
+  }
+
+  #services {
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 540px) {
+  .box {
+    width: 332px;
+    height: 200px;
+  }
+
+  .hover-text {
+    padding: 85px 80px;
+  }
+
+  .button_up_text {
+    display: none;
+  }
+
+  .services__container {
+    width: 320px;
+    margin: auto;
+  }
+
+  #services {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 380px) {
+  .box {
+    width: 280px;
+    height: 150px;
+  }
+
+  .services__container {
+    width: 280px;
+    margin: auto;
+  }
+
+  .hover-text {
+    padding: 60px 65px;
+  }
+
+}

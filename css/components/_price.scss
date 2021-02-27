@@ -1,0 +1,280 @@
+#price {
+  margin: 160px 0;
+  line-height: 24px;
+}
+
+    #price a {
+      color: $text_main;
+      font-size: 40px;
+      font-weight: bold;
+      font-family: Futura PT Heavy;
+      display: inline-block;
+      padding: 0 62px;
+    }
+
+    .price__link {
+      margin-bottom: 50px;
+    }
+
+    #price a:hover{
+      color: $red_hpz;
+      text-decoration: none;
+    }
+
+    #price .active {
+      color: $red_hpz;
+      text-decoration: underline;
+      }
+
+  .table th, .table thead th, .table td, .table tr {
+    border: none;
+  }
+
+  .table_box {
+    height: 530px;
+  }
+
+    .table {
+      color: $text_main;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 24px;
+      font-family: "Futura PT Medium";
+    }
+
+    .table td {
+      width: 13.14%;
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+
+    .table th {
+      width: 8%;
+      font-size: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .table__red {
+      color: $red_hpz;
+    }
+
+    th.table__redhr {
+      color: $red_hpz;
+      padding-top: 25px;
+    }
+
+  .none {
+    display: none;
+  }
+
+  .table__title {
+    display: none;
+  }
+
+  .table__line {
+    background-color: $red_hpz;
+    width: 50%;
+  }
+
+  .price__comment {
+    font-size: 24px;
+    font-family: "Futura PT Medium";
+    line-height: 30px;
+  }
+
+  .table__tv {
+    max-width: 500px;
+    margin: 40px auto 0 auto;
+  }
+
+  .table__line.second_line{
+    margin-top: 30px;
+    width: 25%;
+  }
+
+    .table__tv td {
+      width: 144px;
+    }
+
+tbody tr:hover
+{
+  border-collapse: collapse;
+  border-radius: 20px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px $red_hpz;
+}
+
+@media screen and (max-width: 1360px) {
+  table.table th {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .table_box {
+    height: 310px;
+  }
+
+  table.table th {
+    font-size: 15px;
+  }
+
+  table.table td {
+    font-size: 20px;
+  }
+
+  .table_box {
+    height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  table.table thead {
+    display: none;
+  }
+
+  table.table tr {
+    display: block;
+    border: none;
+  }
+
+  table.table th {
+    border: none;
+  }
+
+  table.table td {
+    display: block;
+    text-align: right;
+  }
+
+  table.table td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+  }
+
+  .table__title {
+    display: inline;
+  }
+
+  .table_box {
+    height: 100%;
+    margin: 0 20px;
+  }
+
+  .table td {
+    width: 100%;
+  }
+
+  .table th {
+    width: 100%;
+  }
+
+  table.table td {
+    border-top: 1px solid #f5f5f5;
+  }
+
+  table.table th {
+    font-size: 24px;
+  }
+
+  table.table td {
+    font-size: 22px;
+  }
+
+  table.table td:before {
+    content: attr(aria-label);
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .price__link {
+    margin-bottom: 0;
+  }
+
+  table.table {
+    margin-bottom: 0;
+  }
+
+  table.table tr {
+    margin-bottom: 50px;
+  }
+
+  table.table tr {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  table.table th {
+    font-size: 21px;
+  }
+
+  table.table td {
+    font-size: 18px;
+  }
+
+  table.table td:before {
+    font-size: 18px;
+  }
+
+  .price__comment {
+    font-size: 18px;
+  }
+
+  #price {
+    margin: 140px 0;
+  }
+
+  .table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .table__line.second_line{
+    width: 50%;
+  }
+
+  table.table tr {
+    margin: 30px 0;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+
+  table.table th {
+    font-size: 20px;
+  }
+
+  table.table td {
+    font-size: 16px;
+  }
+
+  table.table td:before {
+    font-size: 14px;
+  }
+
+  .price__comment {
+    font-size: 16px;
+  }
+
+  #price a {
+    padding: 0 40px;
+  }
+
+  #price {
+    margin-top: 30px;
+    margin-bottom: 120px;
+  }
+
+}
